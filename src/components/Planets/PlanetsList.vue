@@ -86,18 +86,12 @@ onMounted(async () => {
             <template #title> Planet {{ index }}</template>
             <template #content>
               <div>{{ sw.name }}</div>
-              <div>{{ sw.population }}</div>
-              <div>{{ index }}</div>
+              <div>{{ sw.climate }}</div>
             </template>
           </SwCard>
         </div>
       </ScrollPanel>
     </div>
-    <!-- <b-modal id="popupModal" v-model="store.modalOpen">
-      <div>
-        {{ store.starWarsPerson.name }}
-      </div>
-    </b-modal> -->
     <PopupModal
       style="z-index: 3"
       v-model="store.modalOpen"

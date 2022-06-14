@@ -68,7 +68,7 @@ Define interface for each entity
 Each component is very similar, this could have been a general component but for this assignment
 
 i chose to go for the easier implementation due to time restraints, and not needed reusability in future
-
+    
 We use a DataService with Axios and we define a get method for every entity on the api
 
 We define labels that change the view from List to Grid on click

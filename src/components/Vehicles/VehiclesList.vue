@@ -87,17 +87,11 @@ onMounted(async () => {
             <template #content>
               <div>{{ sw.name }}</div>
               <div>{{ sw.model }}</div>
-              <div>{{ index }}</div>
             </template>
           </SwCard>
         </div>
       </ScrollPanel>
     </div>
-    <!-- <b-modal id="popupModal" v-model="store.modalOpen">
-      <div>
-        {{ store.starWarsPerson.name }}
-      </div>
-    </b-modal> -->
     <PopupModal
       style="z-index: 3"
       v-model="store.modalOpen"

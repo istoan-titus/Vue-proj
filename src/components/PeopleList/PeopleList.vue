@@ -42,7 +42,6 @@ const store = reactive({
       this.modalOpen = true;
       store.starWarsPerson = starWarsPerson;
     }
-
   },
   closePeopleModal() {
     if (this.modalOpen == true) {
@@ -87,8 +86,7 @@ onMounted(async () => {
             <template #title> Person {{ index }}</template>
             <template #content>
               <div>{{ sw.name }}</div>
-              <div>{{ sw.birth_year }}</div>
-              <div>{{ index }}</div>
+              <div>{{ sw.height }} cm</div>
             </template>
           </SwCard>
         </div>
@@ -100,7 +98,6 @@ onMounted(async () => {
       :close="store.closePeopleModal"
     >
       <div class="modal">
-        <p>Hello</p>
         <p>Name: {{ store.starWarsPerson.name }}</p>
         <p>Gender: {{ store.starWarsPerson.gender }}</p>
         <p>Height: {{ store.starWarsPerson.height }}</p>
