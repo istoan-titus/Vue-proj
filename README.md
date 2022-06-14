@@ -6,25 +6,19 @@
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-Project Setup
+### Project Setup
 
 Installed Vue from official Website, came with a Hello World project and different libraries  like router 
 
-Used PrimeVue library due to previous experience with the angular counterpart. I used this 
+Used PrimeVue library due to previous experience with the angular counterpart. 
 
-because it is suited for simple functionalities, and to get some default styling 
+I used this because it is suited for simple functionalities, and to get some default styling 
 
 Used different components from Primevue: Card, ScrollPanel, InputText
 
 Used VueUniversalModal due to the simplicity of using the portal/teleport functionality of vue with it.
 
-Project layout
+### Project layout
 
 Used router for navigating between entities components
 
